@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addList"
+        android:title="Ajouter une nouvelle liste"
+        android:icon="@drawable/ic_ajouter"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/clearList"
+        android:title="Vider la liste"
+        android:icon="@drawable/ic_cancle"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/about"
+        android:title="À propos"
+        app:showAsAction="never" />
+
+</menu>
